@@ -1,5 +1,5 @@
 h1 {
-    color: goldenrod;
+    color: black;
 }
 
 body {
@@ -13,4 +13,15 @@ body {
 
 #message-el {
     font-style: italic;
+}
+
+#button {
+    color: black;
+    width: 150px;
+    background: lightcoral;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
 }
