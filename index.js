@@ -18,9 +18,14 @@ let message = ""
 //CREATTING OBJECTS
 let player = {
     Name: "Vansh",
-    Chips: 145
-
+    Chips: 145,
+    sayHello: function () {
+        console.log("Vansh")
+    }
 }
+//Can ALso Access function using object
+player.sayHello()
+
 let playerEl = document.getElementById("PlayerEl")
 playerEl.textContent = player.Name + " " + player.Chips//Acessing using objects
 let cards = []//Array
